@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Neon&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap")
+  @import
+  url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap") * {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.N {
+  padding-left: 83px;
+}
+.N h1 {
+  color: red;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.but {
+  margin-right: 120px;
+  margin-top: 22px;
+}
+.but button {
+  width: 72px;
+  height: 32px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(226, 5, 5);
+  color: white;
+}
+.mc {
+  height: 100%;
+  color: white;
+}
+.um h1 {
+  color: white;
+  font-size: 47px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.um {
+  padding-left: 24%;
+  padding-top: 11%;
+}
+.wa {
+  padding-left: 37%;
+}
+.wa h3 {
+  color: white;
+  font-size: 30px;
+}
+#mem {
+  padding-left: 23%;
+}
+.em {
+  padding-left: 33%;
+0-top: 3%;
+}
+#ea {
+  width: 350px;
+  height: 46px;
+  background-color: transparent;
+  border: 2px white solid;
+  padding-left: 15px; 
+}
+#mbtn {
+  width: 170px;
+  height: 57px;
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin-left: 9px;
+   margin-top: 18px;
+}
+.em button:hover{
+cursor: pointer;
+ transition: 2s;
+ background-color: skyblue;
+}
+
